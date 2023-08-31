@@ -1,0 +1,257 @@
+*{   
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    background:  #004D98 ;
+}
+.logo{
+    width: 140px;
+    margin-left: 15px;
+}
+.leftnav,.rightnav{
+    display: flex;
+    align-items: center;  
+}
+.navusericon i{
+    cursor: pointer;
+    color: gold;
+    margin-right: 30px;
+    
+}
+.searchbox{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    background: white;
+    border-radius: 20px;
+    padding-right: 10px;
+    align-items: center; 
+}
+.searchbox input{
+    width: 100%;
+    background: transparent;
+    padding-top: 3px;
+    padding-left: 20px;
+    border:0;
+    outline: none;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.left{
+    flex-basis: 25%;
+    padding-top: 20px;
+    padding-left: 25px;
+    background:black;
+    border-radius: 5px;
+    height: 520px;   
+}
+.link a, .webs a{
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 30px;
+    color:white;
+}
+.link i, .webs i{
+    margin-right: 20px;
+    color: gold;
+}
+.link{
+    border-bottom: 3px solid#ccc;
+    margin-right: 20px;
+}
+.webs p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color:white;
+}
+.right{
+    flex-basis: 25%;
+    height: 650px;
+    padding-left: 30px;
+    padding-top: 20px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+.right .title{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.right .title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 15px;
+}
+.event{
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+.levent{
+    border-radius: 100px;
+    height: 70px;
+    width: 70px;
+    margin-right: 30px;
+    padding-top: 15px;
+    text-align: center;
+    background: white;
+    color:black;
+}
+.revent p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.revent a{
+    color: white;
+    text-decoration: none;
+}
+.mess{
+    border-top: 3px solid white;
+    display:flex ;
+    justify-content: space-between;
+    padding-top: 20px; 
+    margin-right: 20px; 
+}
+.mess a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 15px;
+}
+.onlinelist{
+    display: flex;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.onlinelist i{
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.onlinelist i:hover{
+    transform: scale(1.07);
+    background: gold;
+}
+.onlinelist p{
+   padding-top: 10px;
+   font-size: 20px;
+   font-weight: 600;
+}
+.middle{
+    flex-basis: 47%;
+}
+.postcontainer
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+    background: white;
+}
+.userprofile{
+    display: flex;
+    align-items: center;
+}
+.userprofile i{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+.userprofile p{
+    font-weight: 600;
+    color: black;
+}
+.userprofile small{
+ display: flex;
+ margin-top: 2px;
+    
+}
+.postinput{
+    padding-top: 20px;
+}
+.postinput textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid#ccc;
+    font-size:16px;
+    color: black;
+}
+.addpost{
+    display: flex;
+    margin-top: 10px;
+}
+.addpost a {
+    display:flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.addpost i{
+    margin-right: 15px;
+}
+.postcon{
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    color:black;
+    margin-top: 20px ;
+}
+.userprofile span{
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+.textpost{
+margin-top: 15px;
+font-size: 15px;
+margin-bottom: 2px;
+}
+.img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.acticon div i{
+width: 18px;
+margin-right: 10px;
+}
+.acticon div {
+    display: inline-flex;
+    margin-right: 30px;
+}
+.img1{
+    width: 100%;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
